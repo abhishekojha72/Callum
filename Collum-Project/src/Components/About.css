@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Merriweather:wght@700&display=swap');
+
+.about-heading-main {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(44, 20, 20);
+}
+
+.about-heading-sub {
+  font-family: 'Merriweather', serif;
+  color: rgb(44, 20, 20);
+}
+
+.about-para, .about-para1 {
+  font-family: 'Roboto', sans-serif;
+  color: rgb(44, 20, 20);
+}
+
+/* Mobile-first: Default to sans-serif */
+@media (max-width: 640px) {
+  .about-heading-main {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(44, 20, 20);
+  }
+
+  .about-heading-sub {
+    font-family: 'Merriweather', serif;
+    color: rgb(44, 20, 20);
+  }
+}
+
+/* Medium and larger screens: Use serif for headings */
+@media (min-width: 768px) {
+  .about-heading-main {
+    font-family: 'Merriweather', serif;
+  }
+
+  .about-heading-sub {
+    font-family: 'Roboto', sans-serif;
+  }
+}
